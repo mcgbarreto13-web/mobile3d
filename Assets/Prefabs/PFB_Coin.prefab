@@ -229,6 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4631883fc5ed5df4a8423c79761c8d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemCollectableBase
-  compareTag: Player
+  compareTag: CoinCollector
   timeToHide: 3
   graphicItem: {fileID: 6984693930741711205}
