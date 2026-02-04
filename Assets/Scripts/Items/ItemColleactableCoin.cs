@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemColleactableCoin : ItemCollectableBase
 {
-  public Collider collider;
+  public Collider _collider;
   public bool collect = false;
   public float lerp = 5f;
   public float minDistance = 1f;
@@ -17,7 +17,7 @@ public class ItemColleactableCoin : ItemCollectableBase
   protected override void OnCollect()
     {
         base.OnCollect();
-        collider.enabled = false;
+        GetComponent<Collider>().enabled = false;
         collect = true;
         //PlayerController.Instance.Bounce();
     }
